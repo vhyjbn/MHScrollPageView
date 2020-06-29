@@ -1,0 +1,16 @@
+PODS:
+  - MHScrollPageView (1.0.0)
+
+DEPENDENCIES:
+  - MHScrollPageView (from `../`)
+
+EXTERNAL SOURCES:
+  MHScrollPageView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MHScrollPageView: 0c2650c319debbf8ad5b87c4b25fa5329b32b10b
+
+PODFILE CHECKSUM: a96134e94486ae2cd8b5c9bdc3e60e9e81917aaf
+
+COCOAPODS: 1.6.1

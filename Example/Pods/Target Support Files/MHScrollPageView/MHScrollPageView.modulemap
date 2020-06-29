@@ -1,0 +1,6 @@
+framework module MHScrollPageView {
+  umbrella header "MHScrollPageView-umbrella.h"
+
+  export *
+  module * { export * }
+}

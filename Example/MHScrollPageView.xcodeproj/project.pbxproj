@@ -38,9 +38,9 @@
 
 /* Begin PBXFileReference section */
 		10D5550607ED888ABB837225 /* Pods-MHScrollPageView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHScrollPageView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MHScrollPageView_Tests/Pods-MHScrollPageView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		23267ACC7677827C302F5CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2469AB677DBA0AFDBDA129F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2FB7E3D43AE64CD2351E3C43 /* MHScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MHScrollPageView.podspec; path = ../MHScrollPageView.podspec; sourceTree = "<group>"; };
+		23267ACC7677827C302F5CD6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2469AB677DBA0AFDBDA129F2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2FB7E3D43AE64CD2351E3C43 /* MHScrollPageView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MHScrollPageView.podspec; path = ../MHScrollPageView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		55E211254EE66279C288294B /* Pods-MHScrollPageView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MHScrollPageView_Example.debug.xcconfig"; path = "Target Support Files/Pods-MHScrollPageView_Example/Pods-MHScrollPageView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MHScrollPageView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHScrollPageView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -103,7 +103,6 @@
 				10D5550607ED888ABB837225 /* Pods-MHScrollPageView_Tests.debug.xcconfig */,
 				AD89D27C4E3FB8E600847FFE /* Pods-MHScrollPageView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
