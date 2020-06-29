@@ -1,0 +1,16 @@
+use_frameworks!
+
+source 'git@git.n.xiaomi.com:hanyunhui/xmspec.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '9.0'
+
+target 'MHScrollPageView_Example' do
+  pod 'MHScrollPageView', :path => '../'
+
+  target 'MHScrollPageView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
