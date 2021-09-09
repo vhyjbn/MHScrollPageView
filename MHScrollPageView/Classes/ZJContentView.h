@@ -31,4 +31,7 @@
 - (void)setContentOffSet:(CGPoint)offset animated:(BOOL)animated;
 /** 给外界 重新加载内容的方法 */
 - (void)reload;
+/** 给外界 重新加载内容的方法 -当frame改变时调用*/
+- (void)reloadForFrameChange;
+
 @end

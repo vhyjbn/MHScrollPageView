@@ -62,6 +62,16 @@
     [self.contentView reload];
 }
 
+- (void)reloadForFrameChange {
+    self.segmentView.frame = CGRectMake(0,0,self.bounds.size.width,self.segmentStyle.segmentHeight);
+    self.contentView.frame = CGRectMake(0.0, CGRectGetMaxY(self.segmentView.frame), self.bounds.size.width, self.bounds.size.height - CGRectGetMaxY(self.segmentView.frame));
+    NSInteger lastIndex = self.segmentView.currentPageIndex;
+    [self.segmentView reloadTitlesWithNewTitles:self.titlesArray];
+    [self.contentView reloadForFrameChange];
+    [self setSelectedIndex:lastIndex animated:NO];
+    [self.contentView setContentOffSet:CGPointMake(self.contentView.bounds.size.width * lastIndex, 0.0) animated:NO];
+}
+
 
 #pragma mark - getter ---- setter
 

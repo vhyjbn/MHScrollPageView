@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		0EAEC08D5A3D0D7953B258E28FF4C561 /* UIViewController+ZJScrollPageController.h in Headers */ = {isa = PBXBuildFile; fileRef = E94D07117C29BC84891B43B1241B8C18 /* UIViewController+ZJScrollPageController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EE84712587F6A0383E619728D68AB51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		18749DC6A38A4C24182470F9871E2536 /* ZJCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 97A2A653767A8720A5D26845A15F70D7 /* ZJCollectionView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FF6397CB2BA2FFFAD06C8A0DE0C60E7 /* ZJTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2249A5E7F9BEE44C960DDAD22845741C /* ZJTitleView.m */; };
 		24909FFC150F719B9C4EA540C16D515F /* ZJSegmentStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C660EFEB113919E4673D1CD7A292B1F /* ZJSegmentStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30A5AF7D6C248BFD9E2DD9A59A7A785C /* ZJCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8F3E772CD583A156642EF66CE13503 /* ZJCollectionView.m */; };
-		3E7C0ED886FB8B99F654C86652B7AA15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3FCD72BBA3C890679DE9424F4D07653D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		4129233C52A90157FE5B919A1254758B /* Pods-MHScrollPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EBCDCA3CF82EE8DA9AD29282B10CE7 /* Pods-MHScrollPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41D9FD64E8E0F12A44E2F01AD86E06B7 /* Pods-MHScrollPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 880F80A25E6B08A9A0D2097770D9F96D /* Pods-MHScrollPageView_Example-dummy.m */; };
 		42B379A6F1BD22155AEA1EC49B9CD661 /* ZJScrollPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 678C824626CDBB3E6716DB4296BE1287 /* ZJScrollPageView.m */; };
 		4442BFF0C44DD8487C5F7064A0EED1DD /* ZJScrollPageViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = AB4B332D46DC6B9C2E87B7119D5BB1C1 /* ZJScrollPageViewDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		57138EE124BFB56D4DD90B86974099CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5859B30CCFB676E0C7E331665660595F /* Pods-MHScrollPageView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09EBCDCA3CF82EE8DA9AD29282B10CE7 /* Pods-MHScrollPageView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48DEE9F867EF212E5C865F2C36703DDF /* Pods-MHScrollPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 017FC43F1018D69AC914C5787A54B978 /* Pods-MHScrollPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A8FEC1C83D40E6C36557A6D90EABD68 /* UIView+ZJFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 344BC835C712C978F85F264902923DE5 /* UIView+ZJFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7406C36C13CDE2FC42EDC3EFA8705289 /* UIViewController+ZJScrollPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 94CADB47AE978A323BC3813EE5BC0CA8 /* UIViewController+ZJScrollPageController.m */; };
 		8E20A366953756A5CC34ECF18C240230 /* MHScrollPageView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 779CCA62C779A21571229797A91913F2 /* MHScrollPageView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,25 +25,25 @@
 		A86D077F1725D73F7A77814D60191735 /* MHScrollPageView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFCCE56D3E72C2AC6B40390D20CD8DC6 /* MHScrollPageView-dummy.m */; };
 		AB3955B840D636E118774E2096B40263 /* UIView+ZJFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F5F9638512393245B7E786E68DC12E7 /* UIView+ZJFrame.m */; };
 		AC54FF510E76D3065AC8DE8074454B2A /* ZJContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF82A1FA490868DF36E9A7950138DEDC /* ZJContentView.m */; };
-		B12781970D3B873B0E5A27F6D5311288 /* Pods-MHScrollPageView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 880F80A25E6B08A9A0D2097770D9F96D /* Pods-MHScrollPageView_Example-dummy.m */; };
 		BBF141F872604150269971C57F97A0D6 /* ZJTitleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C4AB653E7F55E70E509D917C53D8126 /* ZJTitleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BCE2DD41B91303ED4E58568B098469B4 /* Pods-MHScrollPageView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 017FC43F1018D69AC914C5787A54B978 /* Pods-MHScrollPageView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C12B24015930A6BDDF2D2A4C164CF19C /* Pods-MHScrollPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C74CC03E9DDA0976CC7B4EB2C41CE7DF /* Pods-MHScrollPageView_Tests-dummy.m */; };
 		C9496F238E06AF420E263838D2DA0425 /* ZJScrollSegmentView.h in Headers */ = {isa = PBXBuildFile; fileRef = FDCE751A3DAE7356F72A0E21F688BD47 /* ZJScrollSegmentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D445972F89CDEA8EE58C874EEFD54D8A /* ZJContentView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D74C8F2F7D6A56A8110AB17ADFA59F9 /* ZJContentView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA23389F1A6B2B2D7487A77AACBCB610 /* Pods-MHScrollPageView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C74CC03E9DDA0976CC7B4EB2C41CE7DF /* Pods-MHScrollPageView_Tests-dummy.m */; };
 		E3C6599AC76D19BE4E7680BE5F6DA721 /* ZJSegmentStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 99D330D7D41B0D44CFF75090C53BADF7 /* ZJSegmentStyle.m */; };
+		E7EA1C74063D44A278012BD272A3A1E3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F25E1B457D2969AF836FDE6876DD028B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		F332FE6AAA160B65347E3C0E6895DCAF /* ZJScrollPageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DE3608F31D266EC0B63CB6B30B37B62 /* ZJScrollPageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		193306C7F2F001061F214A0C00A79B9E /* PBXContainerItemProxy */ = {
+		2287D41015613CB088B91C0079C16282 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BA78232274CD6F69B74EF1038BFC80B;
+			remoteGlobalIDString = 72B0D394052A61ABD0861BCEAE181713;
 			remoteInfo = "Pods-MHScrollPageView_Example";
 		};
-		32DE1BAD6A962742DADE583D95857091 /* PBXContainerItemProxy */ = {
+		BA863E6657AAD57F343948845C8DBF45 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -62,7 +62,6 @@
 		2249A5E7F9BEE44C960DDAD22845741C /* ZJTitleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJTitleView.m; path = MHScrollPageView/Classes/ZJTitleView.m; sourceTree = "<group>"; };
 		2C660EFEB113919E4673D1CD7A292B1F /* ZJSegmentStyle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJSegmentStyle.h; path = MHScrollPageView/Classes/ZJSegmentStyle.h; sourceTree = "<group>"; };
 		2F5F9638512393245B7E786E68DC12E7 /* UIView+ZJFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ZJFrame.m"; path = "MHScrollPageView/Classes/UIView+ZJFrame.m"; sourceTree = "<group>"; };
-		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		344BC835C712C978F85F264902923DE5 /* UIView+ZJFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ZJFrame.h"; path = "MHScrollPageView/Classes/UIView+ZJFrame.h"; sourceTree = "<group>"; };
 		3AD21FF0763092BC1EF54CB1F9565983 /* MHScrollPageView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MHScrollPageView.xcconfig; sourceTree = "<group>"; };
 		461BE644BBCBA2B016C7EBDAAB6E95BA /* Pods-MHScrollPageView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHScrollPageView_Example.modulemap"; sourceTree = "<group>"; };
@@ -70,6 +69,7 @@
 		55D06E86DAABD67065CE680372F4702F /* Pods-MHScrollPageView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MHScrollPageView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		5C4AB653E7F55E70E509D917C53D8126 /* ZJTitleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ZJTitleView.h; path = MHScrollPageView/Classes/ZJTitleView.h; sourceTree = "<group>"; };
 		678C824626CDBB3E6716DB4296BE1287 /* ZJScrollPageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollPageView.m; path = MHScrollPageView/Classes/ZJScrollPageView.m; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75F9FE7974D8C48E21F850C1BE43AAAB /* ZJScrollSegmentView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ZJScrollSegmentView.m; path = MHScrollPageView/Classes/ZJScrollSegmentView.m; sourceTree = "<group>"; };
 		779CCA62C779A21571229797A91913F2 /* MHScrollPageView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MHScrollPageView-umbrella.h"; sourceTree = "<group>"; };
 		77EFE69DACF6B2B246D57CA3A87C8C14 /* Pods-MHScrollPageView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MHScrollPageView_Tests.modulemap"; sourceTree = "<group>"; };
@@ -104,27 +104,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		29C4C2E7FA8ED860051DDFD87AFF86D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F25E1B457D2969AF836FDE6876DD028B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		5536DB2A5A9ACC7211BF6D6699F395D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57138EE124BFB56D4DD90B86974099CC /* Foundation.framework in Frameworks */,
+				E7EA1C74063D44A278012BD272A3A1E3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5B7F294F653A7BD84D93C8E7EFFC6D7E /* Frameworks */ = {
+		80E62429D4BC9BD9A347C4F35BF22589 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FCD72BBA3C890679DE9424F4D07653D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		909F6EC8DA191447121CFA9322EF3FDF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3E7C0ED886FB8B99F654C86652B7AA15 /* Foundation.framework in Frameworks */,
+				0EE84712587F6A0383E619728D68AB51 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,6 +137,14 @@
 				E6757F6AFF13FDFC9A60533B78A6E609 /* MHScrollPageView */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		8380A3F13413B8CCC3AB030DA79B34F6 /* Pods-MHScrollPageView_Example */ = {
@@ -201,14 +209,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
@@ -223,7 +223,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -272,11 +272,19 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		78EBE52A5FB40FCB3A903F8086A4EEA7 /* Headers */ = {
+		5D032160E795571DEE64D494132ED24F /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCE2DD41B91303ED4E58568B098469B4 /* Pods-MHScrollPageView_Tests-umbrella.h in Headers */,
+				4129233C52A90157FE5B919A1254758B /* Pods-MHScrollPageView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E42363AE2E53CE8E964A544C25BD560 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DEE9F867EF212E5C865F2C36703DDF /* Pods-MHScrollPageView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,14 +302,6 @@
 				C9496F238E06AF420E263838D2DA0425 /* ZJScrollSegmentView.h in Headers */,
 				24909FFC150F719B9C4EA540C16D515F /* ZJSegmentStyle.h in Headers */,
 				BBF141F872604150269971C57F97A0D6 /* ZJTitleView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EF7EE9CEE4F6F440B6A4B085645EBA86 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5859B30CCFB676E0C7E331665660595F /* Pods-MHScrollPageView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,38 +326,38 @@
 			productReference = B2F7F05F5690DE68545ED341E997A7E4 /* MHScrollPageView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		0B35464D229B67D0C4ECFF8C8928CE43 /* Pods-MHScrollPageView_Tests */ = {
+		53783ADD3C6EE725CC0FB5810802BC52 /* Pods-MHScrollPageView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 841BF42D59891B5D088D4F94617C7961 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Tests" */;
+			buildConfigurationList = 738EBA5D8ECAAA40983A35C5C7224D54 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Tests" */;
 			buildPhases = (
-				78EBE52A5FB40FCB3A903F8086A4EEA7 /* Headers */,
-				B6675370A444A4A5BDA4FFE43805A646 /* Sources */,
-				909F6EC8DA191447121CFA9322EF3FDF /* Frameworks */,
-				364E4DB7B4FC6F0BE2711452BD4EE828 /* Resources */,
+				6E42363AE2E53CE8E964A544C25BD560 /* Headers */,
+				76E5DF1361A358CB4736884AC0255106 /* Sources */,
+				29C4C2E7FA8ED860051DDFD87AFF86D5 /* Frameworks */,
+				526377504764CC3C4D67D945BCC089E6 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				37CC54B21EC6522E464E0418FF317ED8 /* PBXTargetDependency */,
+				F8C2D5780E17405383978D018690DB9E /* PBXTargetDependency */,
 			);
 			name = "Pods-MHScrollPageView_Tests";
 			productName = "Pods-MHScrollPageView_Tests";
 			productReference = E6E434B583BE84F89680D4B1A25994D2 /* Pods_MHScrollPageView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		1BA78232274CD6F69B74EF1038BFC80B /* Pods-MHScrollPageView_Example */ = {
+		72B0D394052A61ABD0861BCEAE181713 /* Pods-MHScrollPageView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECFB9C131801BFE9C8BB46FBC25C6522 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Example" */;
+			buildConfigurationList = BF6B1294015A240D76EA92954F38D5E6 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Example" */;
 			buildPhases = (
-				EF7EE9CEE4F6F440B6A4B085645EBA86 /* Headers */,
-				7B5CFFD8CED868B0E989D974CB5E01AF /* Sources */,
-				5B7F294F653A7BD84D93C8E7EFFC6D7E /* Frameworks */,
-				F421E37CBC0938DBFC5C68396EC18FC3 /* Resources */,
+				5D032160E795571DEE64D494132ED24F /* Headers */,
+				B08B1EE0F73D64C0BCB5D17EFDB216D2 /* Sources */,
+				80E62429D4BC9BD9A347C4F35BF22589 /* Frameworks */,
+				588A92FACD8150BD40E54EBB265A5CCD /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6682B297C1F171CD3E452731C9779916 /* PBXTargetDependency */,
+				1A121493B9B74DC2DCE56E0FA6364EF9 /* PBXTargetDependency */,
 			);
 			name = "Pods-MHScrollPageView_Example";
 			productName = "Pods-MHScrollPageView_Example";
@@ -387,8 +387,8 @@
 			projectRoot = "";
 			targets = (
 				03D035012EE6DC393FB4647308CBBFDE /* MHScrollPageView */,
-				1BA78232274CD6F69B74EF1038BFC80B /* Pods-MHScrollPageView_Example */,
-				0B35464D229B67D0C4ECFF8C8928CE43 /* Pods-MHScrollPageView_Tests */,
+				72B0D394052A61ABD0861BCEAE181713 /* Pods-MHScrollPageView_Example */,
+				53783ADD3C6EE725CC0FB5810802BC52 /* Pods-MHScrollPageView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -401,14 +401,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		364E4DB7B4FC6F0BE2711452BD4EE828 /* Resources */ = {
+		526377504764CC3C4D67D945BCC089E6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F421E37CBC0938DBFC5C68396EC18FC3 /* Resources */ = {
+		588A92FACD8150BD40E54EBB265A5CCD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -418,11 +418,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7B5CFFD8CED868B0E989D974CB5E01AF /* Sources */ = {
+		76E5DF1361A358CB4736884AC0255106 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B12781970D3B873B0E5A27F6D5311288 /* Pods-MHScrollPageView_Example-dummy.m in Sources */,
+				C12B24015930A6BDDF2D2A4C164CF19C /* Pods-MHScrollPageView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,72 +442,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B6675370A444A4A5BDA4FFE43805A646 /* Sources */ = {
+		B08B1EE0F73D64C0BCB5D17EFDB216D2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA23389F1A6B2B2D7487A77AACBCB610 /* Pods-MHScrollPageView_Tests-dummy.m in Sources */,
+				41D9FD64E8E0F12A44E2F01AD86E06B7 /* Pods-MHScrollPageView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		37CC54B21EC6522E464E0418FF317ED8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-MHScrollPageView_Example";
-			target = 1BA78232274CD6F69B74EF1038BFC80B /* Pods-MHScrollPageView_Example */;
-			targetProxy = 193306C7F2F001061F214A0C00A79B9E /* PBXContainerItemProxy */;
-		};
-		6682B297C1F171CD3E452731C9779916 /* PBXTargetDependency */ = {
+		1A121493B9B74DC2DCE56E0FA6364EF9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MHScrollPageView;
 			target = 03D035012EE6DC393FB4647308CBBFDE /* MHScrollPageView */;
-			targetProxy = 32DE1BAD6A962742DADE583D95857091 /* PBXContainerItemProxy */;
+			targetProxy = BA863E6657AAD57F343948845C8DBF45 /* PBXContainerItemProxy */;
+		};
+		F8C2D5780E17405383978D018690DB9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MHScrollPageView_Example";
+			target = 72B0D394052A61ABD0861BCEAE181713 /* Pods-MHScrollPageView_Example */;
+			targetProxy = 2287D41015613CB088B91C0079C16282 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1B5916414272BBC0F66B01E34918F32B /* Release */ = {
+		0149502545EC66AA972F9F61263466F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4B2EA1C1F5C918E4FCF80EF2742B1AD /* Pods-MHScrollPageView_Tests.release.xcconfig */;
+			baseConfigurationReference = 08F04CF70714032351DB8EBE627D9C88 /* Pods-MHScrollPageView_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MHScrollPageView_Tests/Pods-MHScrollPageView_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MHScrollPageView_Tests/Pods-MHScrollPageView_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		674E11EA27EBD1B38430B8B8585C8637 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5430A4C064E777336EFB46EE152A698 /* Pods-MHScrollPageView_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -530,18 +495,77 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		117213F4E2E1193ED86D5215855BE2CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AD21FF0763092BC1EF54CB1F9565983 /* MHScrollPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MHScrollPageView/MHScrollPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView.modulemap";
+				PRODUCT_MODULE_NAME = MHScrollPageView;
+				PRODUCT_NAME = MHScrollPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		81924D4E5871CFA3F819073E0EF15E5A /* Debug */ = {
+		8EA085E093B4F725A5D0E0D164716C0F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B4D6B2BABA13144FE84DC4B87EE074B /* Pods-MHScrollPageView_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3AD21FF0763092BC1EF54CB1F9565983 /* MHScrollPageView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MHScrollPageView/MHScrollPageView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView.modulemap";
+				PRODUCT_MODULE_NAME = MHScrollPageView;
+				PRODUCT_NAME = MHScrollPageView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8FB0A815DFC59656D0CF40A4B4D0CCF6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4B2EA1C1F5C918E4FCF80EF2742B1AD /* Pods-MHScrollPageView_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -564,12 +588,13 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+		C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -595,6 +620,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -629,7 +655,72 @@
 			};
 			name = Release;
 		};
-		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+		E188E3590F7B244737E87934F10FDC1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5430A4C064E777336EFB46EE152A698 /* Pods-MHScrollPageView_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MHScrollPageView_Example/Pods-MHScrollPageView_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHScrollPageView_Example/Pods-MHScrollPageView_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1A651A67D1FCFEF65E1A4FC7F46E701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B4D6B2BABA13144FE84DC4B87EE074B /* Pods-MHScrollPageView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MHScrollPageView_Tests/Pods-MHScrollPageView_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MHScrollPageView_Tests/Pods-MHScrollPageView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -655,6 +746,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -693,110 +785,14 @@
 			};
 			name = Debug;
 		};
-		CA2F549870729067510D0980910B706A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 08F04CF70714032351DB8EBE627D9C88 /* Pods-MHScrollPageView_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-MHScrollPageView_Example/Pods-MHScrollPageView_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-MHScrollPageView_Example/Pods-MHScrollPageView_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		D0F276D906E4B8E2B25FD87CCBBF71F1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD21FF0763092BC1EF54CB1F9565983 /* MHScrollPageView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MHScrollPageView/MHScrollPageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView.modulemap";
-				PRODUCT_MODULE_NAME = MHScrollPageView;
-				PRODUCT_NAME = MHScrollPageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		EC94E03C90578C331D8FE9D2F4C5B6F9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3AD21FF0763092BC1EF54CB1F9565983 /* MHScrollPageView.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MHScrollPageView/MHScrollPageView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MHScrollPageView/MHScrollPageView.modulemap";
-				PRODUCT_MODULE_NAME = MHScrollPageView;
-				PRODUCT_NAME = MHScrollPageView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				916E0404255105F480DC4950B7625F7A /* Debug */,
-				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+				EF3BAAA889B17377BE8F3254633FA0A7 /* Debug */,
+				C14E932D4C3EFCC589F7DEABCEC18F22 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -804,26 +800,26 @@
 		61D794969C98BE90D1F6F50BA300B796 /* Build configuration list for PBXNativeTarget "MHScrollPageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EC94E03C90578C331D8FE9D2F4C5B6F9 /* Debug */,
-				D0F276D906E4B8E2B25FD87CCBBF71F1 /* Release */,
+				8EA085E093B4F725A5D0E0D164716C0F /* Debug */,
+				117213F4E2E1193ED86D5215855BE2CD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		841BF42D59891B5D088D4F94617C7961 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Tests" */ = {
+		738EBA5D8ECAAA40983A35C5C7224D54 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				81924D4E5871CFA3F819073E0EF15E5A /* Debug */,
-				1B5916414272BBC0F66B01E34918F32B /* Release */,
+				E1A651A67D1FCFEF65E1A4FC7F46E701 /* Debug */,
+				8FB0A815DFC59656D0CF40A4B4D0CCF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		ECFB9C131801BFE9C8BB46FBC25C6522 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Example" */ = {
+		BF6B1294015A240D76EA92954F38D5E6 /* Build configuration list for PBXNativeTarget "Pods-MHScrollPageView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CA2F549870729067510D0980910B706A /* Debug */,
-				674E11EA27EBD1B38430B8B8585C8637 /* Release */,
+				0149502545EC66AA972F9F61263466F5 /* Debug */,
+				E188E3590F7B244737E87934F10FDC1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

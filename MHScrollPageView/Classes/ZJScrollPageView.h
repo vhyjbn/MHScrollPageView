@@ -32,4 +32,6 @@ typedef void(^ExtraBtnOnClick)(UIButton *extraBtn);
 - (void)reloadWithNewTitles:(NSArray<NSString *> *)newTitles;
 
 - (void)setPopGestureEnable:(BOOL)bEnable;
+
+- (void)reloadForFrameChange;
 @end

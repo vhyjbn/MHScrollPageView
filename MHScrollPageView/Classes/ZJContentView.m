@@ -193,6 +193,13 @@ static NSString *const kContentOffsetOffKey = @"contentOffset";
     [self commonInit];
 }
 
+/** 给外界 重新加载内容的方法 -当frame改变时调用*/
+- (void)reloadForFrameChange {
+    self.collectionViewLayout.itemSize = self.bounds.size;
+    self.collectionView.frame = self.bounds;
+    [self reload];
+}
+
 + (void)removeChildVc:(UIViewController *)childVc {
     [childVc willMoveToParentViewController:nil];
     [childVc.view removeFromSuperview];
